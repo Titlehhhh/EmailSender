@@ -1,0 +1,11 @@
+@EmailSender_HostAddress = http://localhost:5227
+
+GET {{EmailSender_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{EmailSender_HostAddress}}/todos/1
+Accept: application/json
+
+###
